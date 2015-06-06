@@ -1,10 +1,11 @@
 {
-    "name" : "App::json2yaml",
+    "name" : "json2yaml",
     "version" : "0.01",
-    "description" : "The great new App::json2yaml",
+    "description" : "Very small utility to convert JSON to YAML",
     "author" : "Dmitry Yaskolko",
-    "source-url" : "",
-    "depends" : [ ],
+		"source-type" : "git",
+    "source-url" : "git://github.com/Miniconf/json2yaml.git",
+    "depends" : ["YAML", "JSON::Tiny"],
     "provides" : {
       "json2yaml" : "App-json2yaml/bin/json2yaml"
     }
