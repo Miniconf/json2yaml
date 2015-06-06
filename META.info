@@ -1,5 +1,5 @@
 {
-    "name" : "json2yaml",
+    "name" : "App::json2yaml",
     "version" : "0.01",
     "description" : "Very small utility to convert JSON to YAML",
     "author" : "Dmitry Yaskolko",
